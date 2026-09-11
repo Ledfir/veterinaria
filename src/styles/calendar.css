@@ -1,0 +1,20 @@
+.rbc-calendar { font-family: var(--font-body); color: var(--color-text); }
+.rbc-toolbar button {
+  color: var(--color-primary);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 6px 12px;
+}
+.rbc-toolbar button:hover { background: var(--color-bg); }
+.rbc-toolbar button.rbc-active {
+  background: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
+}
+.rbc-toolbar-label { font-family: var(--font-display); font-size: 1.1rem; color: var(--color-primary-dark); }
+.rbc-header { padding: 8px 0; font-weight: 600; font-size: 0.82rem; border-color: var(--color-border) !important; }
+.rbc-month-view, .rbc-time-view { border-color: var(--color-border) !important; }
+.rbc-day-bg + .rbc-day-bg, .rbc-month-row + .rbc-month-row, .rbc-time-content > * + * > * { border-color: var(--color-border) !important; }
+.rbc-off-range-bg { background: #F4F1E8; }
+.rbc-today { background: rgba(217,142,57,0.08); }
+.rbc-event { box-shadow: none !important; }
